@@ -1,4 +1,4 @@
-use primitive_types::{H160, H256, U256};
+use ethereum_types::{H160, H256, U256};
 use serde::{Deserialize, Deserializer};
 use std::{collections::BTreeMap, io::BufReader, mem::size_of, str::FromStr};
 
